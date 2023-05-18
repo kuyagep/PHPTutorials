@@ -65,31 +65,31 @@
         }
     echo "<br>";
     // loops
-    // $a = 11;
+    $a = 11;
 
-    // while ($a <= 5) {
-    //    echo "Hello World!";
-    //    $a++;
-    //    echo "<br>";
-    // }
+    while ($a <= 5) {
+       echo "Hello World!";
+       $a++;
+       echo "<br>";
+    }
 
-    // do {
-    //         echo "Hello World!";
-    //         echo "<br>";
-    //         $a++;
-    // } while ($a <= 10);
+    do {
+            echo "Hello World!";
+            echo "<br>";
+            $a++;
+    } while ($a <= 10);
 
 
 
-    // for ($a = 1; $a < 10; $a++) { 
-    //         echo $a;
-    //         echo "<br>";
-    // }
-    // $variable = array( ["one" => 1, "two" => 2, "three" => 3]);
+    for ($a = 1; $a < 10; $a++) { 
+            echo $a;
+            echo "<br>";
+    }
+    $variable = array( ["one" => 1, "two" => 2, "three" => 3]);
 
-    // foreach ($variable as $key => $value) {
-    //     echo $value["one"];
-    // }
+    foreach ($variable as $key => $value) {
+        echo $value["one"];
+    }
 
         
     ?>
